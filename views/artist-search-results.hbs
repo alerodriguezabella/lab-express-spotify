@@ -1,0 +1,9 @@
+<div>
+    {{#each data}}
+        {{!-- <a href="/beers/{{this.id}}"><h2>{{this.name}}</h2></a> --}}
+        <img src={{this.images.[0].url}} />
+        <h2>{{this.name}}</h2>
+        <a href="/albums/{{this.id}}">View Albums</a>
+    {{/each}}
+</div>
+
