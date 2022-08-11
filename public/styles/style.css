@@ -1,3 +1,52 @@
-/* body {
-    background-color: blue;
-} */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('/images/spotify-background.jpeg');
+    background-size: cover;
+    height: 100vh;
+}
+
+/* HOMEPAGE */
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.form fieldset {
+    padding: 50px 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    background-color: rgba(255,255,255,0.4);
+    border: none;
+    border-radius: 10px;
+}
+
+.form input {
+    width: 120%;
+}
+
+.form button {
+    color: white;
+    font-weight: bold;
+    background-color: #ff6961;
+    border: none;
+    border-radius: 5px;
+}
+
+.form input, .form button {
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px 12px;
+    margin: 3px;
+}
+
+/* ARTIST PAGE */
+
+.container {
+    height: 100%;
+    overflow-y: scroll;
+}
