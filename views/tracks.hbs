@@ -1,6 +1,5 @@
-<div>
+<div class="container">
     {{#each data}}
-        {{!-- <a href="/beers/{{this.id}}"><h2>{{this.name}}</h2></a> --}}
         <h2>{{this.name}}</h2>
         <audio controls src="{{this.preview_url}}"></audio>
     {{/each}}
